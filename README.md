@@ -15,8 +15,8 @@ This MATLAB demo aims to identify 3-D sound source positions in a reverberant ro
 ├─ dataset/
 │  ├─ rir/         % rir_rt0{2..8}_{1..100}.mat  (RIRs & source coords)
 │  └─ speech/      % speech1.wav ... speech4.wav
-│  ├─ Download RIR dataset: [Zenodo link](https://zenodo.org/your-dataset-link) (RIR dataset hosted on Zenodo; see link below)
-└─ result/         % output *.mat (auto-created)
+│  ├─ Download RIR dataset: [Zenodo link](https://zenodo.org/records/17500576) (RIR dataset hosted on Zenodo; see link below)
+└─ result/         % output *.mat
 ```
 
 ## Repo Structure (suggested)
@@ -41,7 +41,7 @@ This MATLAB demo aims to identify 3-D sound source positions in a reverberant ro
 
 
 ## Citation
-If you use this code, please cite the MD-OMP paper:
+If you use this code or dataset, please cite the paper below:
 > W.-T. Lai *et al.*, “Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in Reverberant Environments,” 2025.
 
 ## License
