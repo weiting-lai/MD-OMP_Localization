@@ -35,4 +35,4 @@ If you use this code, please cite the MD-OMP paper:
 > W.-T. Lai *et al.*, “Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in Reverberant Environments,” 2025.
 
 ## License
-MIT.
+MIT
