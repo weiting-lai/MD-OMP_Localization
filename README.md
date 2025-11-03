@@ -2,7 +2,7 @@
 
 This MATLAB demo aims to identify 3-D sound source positions in a reverberant room using a perimeter microphone array (arranged around the room walls with slight height differences between each). It serves as the implementation of the Monte Carlo simulation in Subsection V-C of the MD-OMP paper, evaluating localization accuracy under varying reverberation times (RT) for MD-OMP and several baselines (WB-OMP, NF-SRP-PHAT, IR-SRP, G-IRLS). Using the averaged success rates stored in LE, you can reproduce the line plot analogous to Fig. 3.
 
-## Repo Structure (suggested)
+## Repo Structure
 ```
 .
 ├─ demo_monte_t60.m           % main script
