@@ -19,26 +19,11 @@ This MATLAB demo aims to identify 3-D sound source positions in a reverberant ro
 └─ result/         % output *.mat
 ```
 
-## Repo Structure (suggested)
-```
-.
-├─ demo_monte_t60.m           % main script
-├─ +function/
-│  ├─ +pos/        % perimetermic(), generate_grid()
-│  ├─ +dict/       % greens_matrix()
-│  ├─ +algo/       % md_omp.m, wb_omp.m, srp_phat.m, ir_srp.m, g_irls.m, dsearchl10n.m
-│  │  └─ +irsrp/   % tf_mask.m, ipd_prune.m, srp_map_masked_active.m, ...
-│  └─ +plt/        % plot_room.m
-├─ dataset/
-│  ├─ rir/         % rir_rt0{2..8}_{1..100}.mat  (RIRs & source coords)
-│  └─ speech/      % speech1.wav ... speech4.wav
-└─ result/         % output *.mat (auto-created)
-```
-
 ## Requirements
 - MATLAB R2022b+ (uses `pagemtimes` and `pagetranspose`; R2024a used in the paper timing table).  
 - Signal Processing Toolbox (for `stft`, `awgn`, etc.).
 
+For comparison with MD-SBL, please refer to the implementation available at [https://github.com/gerstoft/SBL](https://github.com/gerstoft/SBL).
 
 ## Citation
 If you use this code or dataset, please cite the paper below:
