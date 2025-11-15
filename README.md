@@ -28,8 +28,7 @@ If you use this code or dataset, please cite the paper below:
 
 1. W.-T. Lai, L. Birnie, T. Abhayapala, A. Bastine, and P. Samarasinghe, *"Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in Reverberant Environments,"* IEEE Trans. Audio, Speech, Lang. Process., 2025.
 
-Biblex:
-
+**BibTeX**
 ```
 @ARTICLE{mdomp,
   author={Lai, Wei-Ting and Birnie, Lachlan and Abhayapala, Thushara and Bastine, Amy and Samarasinghe, Prasanga},
