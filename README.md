@@ -30,7 +30,8 @@ If you use this code or dataset, please cite the paper below:
 Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in Reverberant Environments, IEEE Trans. Audio, Speech, Lang. Process., 2025.
 
 ## BibTeX
-```@ARTICLE{11242015,
+```
+@ARTICLE{mdomp,
   author={Lai, Wei-Ting and Birnie, Lachlan and Abhayapala, Thushara and Bastine, Amy and Samarasinghe, Prasanga},
   journal={IEEE Transactions on Audio, Speech and Language Processing},
   title={Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in Reverberant Environments},
@@ -40,7 +41,7 @@ Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in 
   pages={1-11},
   keywords={Estimation;Location awareness;Time-frequency analysis;Accuracy;Matching pursuit algorithms;Direction-of-arrival estimation;Microphone arrays;Dictionaries;Transfer functions;Noise;source localization;source position estimation;sparse representation;matching pursuit;spatio-temporal-spectral fusion},
   doi={10.1109/TASLPRO.2025.3624966}
-}'''
+}```
 
 ## License
 MIT
