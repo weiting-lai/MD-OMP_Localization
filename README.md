@@ -26,7 +26,7 @@ This MATLAB demo aims to identify 3-D sound source positions in a reverberant ro
 ## References
 If you use this code or dataset, please cite the paper below:
 
-1. W.-T. Lai, L. Birnie, T. Abhayapala, A. Bastine, and P. Samarasinghe, *"Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in Reverberant Environments,"* IEEE Trans. Audio, Speech, Lang. Process., 2025. [DOI](https://ieeexplore.ieee.org/document/11242015)
+1. W.-T. Lai, L. Birnie, T. Abhayapala, A. Bastine, and P. Samarasinghe, *"Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in Reverberant Environments,"* IEEE Trans. Audio, Speech, Lang. Process., 2025. [[DOI](https://ieeexplore.ieee.org/document/11242015)]
 
 **BibTeX**
 ```
