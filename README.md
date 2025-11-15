@@ -39,9 +39,9 @@ Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in 
   volume={},
   number={},
   pages={1-11},
-  keywords={Estimation;Location awareness;Time-frequency analysis;Accuracy;Matching pursuit algorithms;Direction-of-arrival estimation;Microphone arrays;Dictionaries;Transfer functions;Noise;source localization;source position estimation;sparse representation;matching pursuit;spatio-temporal-spectral fusion},
   doi={10.1109/TASLPRO.2025.3624966}
-}```
+}
+```
 
 ## License
 MIT
