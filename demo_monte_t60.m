@@ -109,7 +109,7 @@ for rt60 = rt60_codes
     if methods.irsrp, le.irsrp = []; end
     if methods.girls, le.girls = []; end
 
-    for h = n_trials
+    for h = 1:n_trials
         filename = sprintf('rir_rt0%d_%d.mat', rt60, h);
         data = load(filename);
         rir_s1 = data.rir_s1;
