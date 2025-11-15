@@ -24,10 +24,19 @@ This MATLAB demo aims to identify 3-D sound source positions in a reverberant ro
 - Signal Processing Toolbox (for `stft`, `awgn`, etc.).
 
 
-## Citation
+## References
 If you use this code or dataset, please cite the paper below:
 > W.-T. Lai, L. Birnie, T. Abhayapala, A. Bastine, and P. Samarasinghe,
 Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in Reverberant Environments, IEEE Trans. Audio, Speech, Lang. Process., 2025.
+
+## References
+If you use this code or dataset, please cite the paper below:
+1. W.-T. Lai, L. Birnie, T. Abhayapala, A. Bastine, and P. Samarasinghe, *"Sound Source Localization using Multi-Dictionary Orthogonal Matching Pursuit in Reverberant Environments,"* IEEE Trans. Audio, Speech, Lang. Process., 2025.
+
+If you use the baselines, please cite the papers below:
+2. **g-IRLS** — S. Koyama, N. Murata, and H. Saruwatari, *"Sparse sound field decomposition for super-resolution in recording and reproduction,"* J. Acoust. Soc. Amer., 143(6), 3780–3795, 2018.
+
+3. **IR-SRP** — X. Dang and H. Zhu, *"An iteratively reweighted steered response power approach to multisource localization using a distributed microphone network,"* J. Acoust. Soc. Amer., 155(2), 1182–1197, 2024.
 
 ## BibTeX
 ```
