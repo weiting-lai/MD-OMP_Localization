@@ -1,0 +1,12 @@
+{
+  "repository": "weiting-lai/MetaFOA",
+  "path": "styles.css",
+  "sha": "de61f1aa7556575d903fd94456c1c484c737d987",
+  "url": "https://github.com/weiting-lai/MetaFOA/blob/main/styles.css",
+  "copiedVerbatim": true,
+  "overrides": "demo.css",
+  "fonts": [
+    "Inter",
+    "IBM Plex Mono"
+  ]
+}

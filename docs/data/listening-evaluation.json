@@ -1,0 +1,66 @@
+{
+  "role": "Auxiliary listening check, separate from the paper localisation evaluation",
+  "method": "MD-OMP estimated positions + WPE + spatially regularised ILRMA + mask-based MVDR",
+  "positionsMetres": [
+    [
+      -0.9517241379310345,
+      0.24137931034482757,
+      0.2
+    ],
+    [
+      -0.37241379310344824,
+      -0.7241379310344828,
+      -0.2
+    ],
+    [
+      1.1172413793103448,
+      -0.5862068965517241,
+      -0.2
+    ],
+    [
+      0.2896551724137931,
+      0.6551724137931034,
+      -0.1
+    ]
+  ],
+  "sampleRate": 16000,
+  "samples": 201728,
+  "stoiPerSource": [
+    0.6473877776348754,
+    0.767716957617691,
+    0.7858446207744437,
+    0.6164915609217895
+  ],
+  "meanStoi": 0.7043602292371999,
+  "sdrDb": [
+    -0.2790903497500373,
+    2.3891558004238695,
+    -1.0725289541908325,
+    -3.8765669358017742
+  ],
+  "sirDb": [
+    10.748908979894733,
+    12.261205409589316,
+    12.299351525991236,
+    3.8182997333618127
+  ],
+  "sourceOrder": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "permutationUsedForReportedScores": false,
+  "evaluation": "Standard STOI after per-source delay alignment; BSS-Eval uses a 512-tap coloration filter",
+  "referenceUse": "Known playback clips for evaluation only, never extraction or final track ordering",
+  "stereoConversion": "Bit-exact duplication of the scored mono samples into both channels",
+  "limitations": "One recorded scene; residual distortion/interference remain. This is not a speech-enhancement contribution of the paper.",
+  "audioHashes": {
+    "audio/source-01.wav": "fd3ef1c9f068076f84825798a8b83bf97d8b77decac2912d661da3f58bf5ac25",
+    "audio/source-02.wav": "9df6c0a556e732eab5e5a40ec7da9c1fc4cd32607838dc41a27dbcd58485bd08",
+    "audio/source-03.wav": "513d43378cadf98cce866b6e40c754cff702f7eecb8cf8b87dd668db1587f085",
+    "audio/source-04.wav": "d2b91605b5878034fc1adf3c8112e561730a6e4089a35c307441821623cb6c1e",
+    "audio/stereo-mix.wav": "37c9efbacb5906a1419b5f6799687150174c00477eb8eb35c880fe74b6cda069",
+    "audio/original-mic-01.wav": "f9d10d55e7eb925937ce83900f677923ebac37a457781ef9e95bd11e562e4855"
+  }
+}

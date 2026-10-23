@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "paperContribution": "MD-OMP three-dimensional sound source localisation",
+  "addedForDemo": "Position-guided offline extraction, source selection and centred stereo playback",
+  "selectedCandidate": "wpe-ilrma-euclidean0.05-n4096-k2-md-omp-A-mvdr-p0-gmatch",
+  "journalScript": "demo_journal.m",
+  "journalScriptSha256": "e859faad0f701c8b4e1a4b5b0469f68fee9347b4af567484dac7faf407f3362b",
+  "matlabExportSha256": "d8bd860920b1532fd9c69ddb7f475c4c052b19ad81922e832692c12ab20bae9a",
+  "recording": "speech_final/s1s2s3s4_4.wav",
+  "recordingSha256": "9df30ca0580327b6b1303cff6e3f52e5f99e2c0d7c2581eaa2eb37167057044f",
+  "positionsUsedByExtraction": "Saved MD-OMP estimates; no GT coordinates used for steering or final geometric matching",
+  "positionSourceOrder": [
+    3,
+    2,
+    1,
+    4
+  ],
+  "groundTruthUse": "Reference labels and localisation-error evaluation only",
+  "estimatedPositionsMetres": [
+    [
+      -0.9517241379310345,
+      0.24137931034482757,
+      0.2
+    ],
+    [
+      -0.37241379310344824,
+      -0.7241379310344828,
+      -0.2
+    ],
+    [
+      1.1172413793103448,
+      -0.5862068965517241,
+      -0.2
+    ],
+    [
+      0.2896551724137931,
+      0.6551724137931034,
+      -0.1
+    ]
+  ],
+  "microphones": 14,
+  "microphoneGainCalibrationUsed": true,
+  "cleanReferenceUsedInFiltering": false,
+  "referenceMasksUsed": false,
+  "roomTransferCalibrationUsed": false,
+  "extraction": {
+    "method": "ilrma",
+    "prior": "euclidean",
+    "strength": 0.05,
+    "nfft": 4096,
+    "hop": 1024,
+    "iterations": 150,
+    "nmfBases": 2,
+    "seed": 73,
+    "spatialPriorEveryIteration": true,
+    "refinement": "Mask-based EVD-MVDR from spatially guided outputs",
+    "refinementNfft": 2048,
+    "postfilterExponent": 0.0,
+    "spatialAssignment": {
+      "method": "Estimated mixing/free-field coherence, 125-2000 Hz",
+      "order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coherence": [
+        [
+          0.1814208267033839,
+          0.06573596281998696,
+          0.04698759805243493,
+          0.07218230753788002
+        ],
+        [
+          0.08731466272843366,
+          0.20118306249826476,
+          0.06872008826435021,
+          0.054598532047749164
+        ],
+        [
+          0.054181464380201196,
+          0.10438177841507874,
+          0.2545239481379035,
+          0.06089209072473736
+        ],
+        [
+          0.09046555787867788,
+          0.055371051659755074,
+          0.04514197729118359,
+          0.19120455637013148
+        ]
+      ],
+      "cleanReferencesUsed": false,
+      "calibratedRoomTransferUsed": false
+    }
+  },
+  "wpe": {
+    "nfft": 2048,
+    "hop": 256,
+    "taps": 20,
+    "delayFrames": 3,
+    "iterations": 3,
+    "preprocessedSha256": "802607e6c1e1556bf2076bc9cacba851ad96de087cae503648ac0b8254bca9cb"
+  },
+  "playback": {
+    "channels": 2,
+    "sourceSignal": "Identical extracted PCM samples in L and R",
+    "allSourceMixGain": 0.25,
+    "clock": "All six aligned recordings start at one AudioContext time"
+  },
+  "files": {
+    "audio/source-01.wav": {
+      "sha256": "fd3ef1c9f068076f84825798a8b83bf97d8b77decac2912d661da3f58bf5ac25",
+      "inputMonoSha256": "3e2a7701fa6b780fb26e64735d444a04576d07074c0544e14a53d22ee8f68f1c",
+      "inputMonoPCM16Sha256": "d08e664a4d2fab9586da1789be3898d9979a2acbe781ed3447eb0af9db5b05b9",
+      "channels": 2,
+      "channelUse": "Both channels exactly equal the verified extracted mono PCM samples"
+    },
+    "audio/source-02.wav": {
+      "sha256": "9df6c0a556e732eab5e5a40ec7da9c1fc4cd32607838dc41a27dbcd58485bd08",
+      "inputMonoSha256": "9bc41a82cabc1f45f7ee6b3fa162151779bdba48bf1d228fd610844a45d9e810",
+      "inputMonoPCM16Sha256": "e39045176b5b9b681220d4a9e82e6bfff8a1aa5c8c6332e7c25aa83fff3a4884",
+      "channels": 2,
+      "channelUse": "Both channels exactly equal the verified extracted mono PCM samples"
+    },
+    "audio/source-03.wav": {
+      "sha256": "513d43378cadf98cce866b6e40c754cff702f7eecb8cf8b87dd668db1587f085",
+      "inputMonoSha256": "bc16801c753b29aaaa09db1a2c90c3279b8fe08f0b4e29f2d45151fe45f2cffe",
+      "inputMonoPCM16Sha256": "e3d57d9fbe245a39c3785bd8b2d109e83a46b1714fd80c341d90cd7cef09a0af",
+      "channels": 2,
+      "channelUse": "Both channels exactly equal the verified extracted mono PCM samples"
+    },
+    "audio/source-04.wav": {
+      "sha256": "d2b91605b5878034fc1adf3c8112e561730a6e4089a35c307441821623cb6c1e",
+      "inputMonoSha256": "72151086a6dcf566f8fd33c0f67cc7bdc7d83498947a218d1fefbf5814c7588a",
+      "inputMonoPCM16Sha256": "74a044282eea3580dd9d004a56b6bf8971f3effc6a1eb0fd1d0aca2408793867",
+      "channels": 2,
+      "channelUse": "Both channels exactly equal the verified extracted mono PCM samples"
+    },
+    "audio/stereo-mix.wav": {
+      "sha256": "37c9efbacb5906a1419b5f6799687150174c00477eb8eb35c880fe74b6cda069",
+      "channels": 2,
+      "mixGainPerSource": 0.25,
+      "mixRule": "L = R = round((S1 + S2 + S3 + S4)/4), PCM16"
+    },
+    "audio/original-mic-01.wav": {
+      "sha256": "f9d10d55e7eb925937ce83900f677923ebac37a457781ef9e95bd11e562e4855",
+      "channels": 2,
+      "input": "speech_final/s1s2s3s4_4.wav",
+      "microphoneOneBased": 1,
+      "gain": 1.3231068200619402
+    }
+  }
+}
